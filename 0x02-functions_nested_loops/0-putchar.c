@@ -1,7 +1,7 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
-* main - prints Holberton, followed by a new line.
+* main - prints _putchar, followed by a new line.
 *
 * Return: 0 (Success)
 */
@@ -9,9 +9,9 @@
 
 int main(void)
 {
-	char *holberton;
+	char *_putchar;
 
-	for (holberton = "Holberton\n"; *holberton != '\0'; ++holberton)
-		_putchar(*holberton);
+	for (_putchar = "_putchar\n"; *_putchar != '\0'; ++_putchar)
+		_putchar(*_putchar);
 	return (0);
 }
